@@ -39,6 +39,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Kollision is a simple ball dodging game.
 
+%description -l pl.UTF-8
+Kollision jest prostą grą w unikanie kul.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
